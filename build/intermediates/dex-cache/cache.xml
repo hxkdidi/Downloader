@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/e6b01f33712c009ffc56f74f1a90f45d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/53efb3814347f765c312c0ada7c8e4a3/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/library-1.4.aar/fd1bf425163874df280ab57fee6ba8f0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e82910dd72a1f446acb523c10abbb2ba330e9c9f">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/xutils-3.3.44.aar/2d12837aa1822efea5104547d4c2eaeb/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a4638691138066ea48da43ef8f85ce1f5a8c3015">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/17bc3f6db793d6fe10a296b01e8279d7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/library-1.0.7.aar/257725b5f5a3cf985e00a483a6e6d8ad/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ac813a0c2bd00ca9b36e9c1b7ffa76f3193033ec">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/5d6e815270f9ebc44f702ba3d2f7885c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/4d2ca978ad6d155f781df1df3f779179/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/450f84d3340a2982a87739cdcde089e0/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/aae0f5888b2b327dec9dbe85ac6123e4/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/e6310388bc075161f4afeb05ed98e15d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/a7f6b904ee7b3f797a1af140bca15b9c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/fb01e1f4bfe6d8e7e06f676e245a0420/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/apple/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/b00cd717da4081d27d8fe2401107ca49/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="16"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b15c6ded887ad967e20bb335c1a121b253c04dce">
+        <dex dex="/Users/apple/Downloads/AppDownLoader/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+
+</items>
