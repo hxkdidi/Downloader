@@ -1,4 +1,4 @@
-package com.didi.art.appdownloader;
+package com.didi.art.appdownloader.download;
 
 
 import java.io.IOException;

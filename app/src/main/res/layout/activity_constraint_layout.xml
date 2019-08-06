@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_relative_position"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="在A下方,与A左对齐"
+        app:layout_constraintLeft_toLeftOf="@id/btn_A"
+        app:layout_constraintTop_toBottomOf="@id/btn_A" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="在A上方,与A居中对齐"
+        app:layout_constraintBottom_toTopOf="@id/btn_A"
+        app:layout_constraintLeft_toLeftOf="@id/btn_A"
+        app:layout_constraintRight_toRightOf="@id/btn_A" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="bottom"
+        android:text="baseline对齐"
+        app:layout_constraintBaseline_toBaselineOf="@id/btn_A"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="bottom"
+        android:text="水平居中对齐"
+        app:layout_constraintBottom_toBottomOf="@id/btn_A"
+        app:layout_constraintLeft_toRightOf="@id/btn_A"
+        app:layout_constraintTop_toTopOf="@id/btn_A" />
+
+</android.support.constraint.ConstraintLayout>

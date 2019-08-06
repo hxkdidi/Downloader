@@ -1,4 +1,4 @@
-package com.didi.art.appdownloader;
+package com.didi.art.appdownloader.download;
 
 import android.Manifest;
 import android.content.Context;
@@ -22,6 +22,8 @@ import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.daimajia.numberprogressbar.NumberProgressBar;
+import com.didi.art.appdownloader.BuildConfig;
+import com.didi.art.appdownloader.R;
 
 import org.xutils.common.Callback;
 import org.xutils.http.RequestParams;

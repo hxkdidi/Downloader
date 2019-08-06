@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--其实也是符合逻辑，a gone后，会变为一个点，
+    所以C顶齐父布局也没问题。但有的时候这不符合我们的需求，
+    我们希望Barrier不要关注Gone的View了，所以谷歌提供了属性barrierAllowsGoneWidgets,设为false后，
+    就不在关注Gone的View了，效果如下：-->
+
+    <Button
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="第一个按钮"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第二个按钮"
+        app:layout_constraintTop_toBottomOf="@+id/a" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierAllowsGoneWidgets="false"
+        app:barrierDirection="top"
+        app:constraint_referenced_ids="a,b" />
+
+    <Button
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第三个按钮"
+        app:layout_constraintTop_toTopOf="@+id/barrier_1" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12618212"
+        app:layout_constraintTop_toBottomOf="@+id/c" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asasashak"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="lalalalalalalaalalalalalalaaaaaaaaaaaaaaaasssslaalddddddaaaa
+        sssssskjjdjjddjdjjdjddjdjdjdjdjdjddjdjdjdjdjddjdjdjddddddddddddddddddjhhhh
+        hahahahhhahahahhahahahhahaahahahaahhahahahahhhhhaahhhahahahhhhhhhhhhhhhhhh
+        alalalalalalaalalalalalalalaalalalalalalalaalalalalalalalaalalalalalalalaa "
+        android:visibility="gone"
+        app:layout_constraintLeft_toRightOf="@+id/barrier" />
+
+    <!--end,left,right,top,bottom-->
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="text1,text2" />
+
+</android.support.constraint.ConstraintLayout>

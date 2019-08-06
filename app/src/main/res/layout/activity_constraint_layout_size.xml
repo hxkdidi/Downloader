@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--水平居中 相对一个控件或者父容器左右对齐-->
+    <!--match_parent，填充满父布局，此时设置的约束都不生效了。
+    （早之前的约束布局版本貌似不允许在其子view中使用match_parent属性，
+    但是我写文章的时候发现也是可以用上去的）-->
+    <Button
+        android:id="@+id/btn_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="水平居中"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!--垂直居中 相对一个控件或者父容器左右对齐-->
+    <!--设置0dp，相当于MATCH_CONSTRAINT属性，基于约束最终确定大小-->
+    <Button
+        android:id="@+id/btn_B"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="垂直居中"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="水平垂直居中"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_max="100dp"
+        app:layout_constraintHeight_min="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_max="100dp"
+        app:layout_constraintWidth_min="0dp" />
+
+
+</android.support.constraint.ConstraintLayout>

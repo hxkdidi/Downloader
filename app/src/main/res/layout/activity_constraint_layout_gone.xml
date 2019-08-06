@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--水平居中 相对一个控件或者父容器左右对齐-->
+    <Button
+        android:id="@+id/btn_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="水平居中"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!--垂直居中 相对一个控件或者父容器左右对齐-->
+    <Button
+        android:id="@+id/btn_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/permissionBgColorBlue"
+        android:text="垂直居中"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--效果如下，btn_B在TextView1的右边，且没有边距。
+    这个时候把btn_C的可见性设为gone，效果如下：-->
+    <Button
+        android:id="@+id/btn_C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/permissionBgColorGreenLight"
+        android:text="垂直居中下方"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/btn_B"
+        app:layout_goneMarginTop="10dp" />
+
+    <Button
+        android:id="@+id/btn_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="水平垂直居中"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

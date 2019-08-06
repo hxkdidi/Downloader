@@ -1,9 +1,11 @@
-package com.didi.art.appdownloader;
+package com.didi.art.appdownloader.download;
 
 import android.Manifest;
 import android.content.Context;
 import android.text.TextUtils;
 
+
+import com.didi.art.appdownloader.R;
 
 import java.util.ArrayList;
 import java.util.List;

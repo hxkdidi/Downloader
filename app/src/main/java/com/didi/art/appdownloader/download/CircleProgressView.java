@@ -1,4 +1,4 @@
-package com.didi.art.appdownloader;
+package com.didi.art.appdownloader.download;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -14,6 +14,8 @@ import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.ProgressBar;
+
+import com.didi.art.appdownloader.R;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

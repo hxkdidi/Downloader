@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--可以看出，链与LinearLayout效果大致一样。和LinearLayout一样，
+    链也可以使用layout_constraintHorizontal_weight，来分割剩余空间。但又和
+     android:layout_weight不太一样，不一样的地方如下：layout_weight ，
+     不管当前view的大小设的是多大，都会继续占据剩余空间layout_constraintHorizontal_weight，
+     这个只对0dp并且layout_constraintWidth_default为spread的view生效，
+     使其大小按比例分割剩余空间，对于已经设定大小的view不生效-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="aaa"
+            android:textColor="@color/permissionColorWhite" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="BBB"
+            android:textColor="@color/permissionColorWhite" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="CCCCCCCCCCCCCC"
+            android:textColor="@color/permissionColorWhite" />
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/aaa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="aaa"
+            android:textColor="@color/permissionColorWhite"
+            app:layout_constraintEnd_toStartOf="@id/bbb"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/bbb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="BBB"
+            android:textColor="@color/permissionColorWhite"
+            app:layout_constraintEnd_toStartOf="@id/ccc"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toEndOf="@id/aaa" />
+
+        <Button
+            android:id="@+id/ccc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="CCCCCCCCCCCCCCC"
+            android:textColor="@color/permissionColorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="5"
+            app:layout_constraintStart_toEndOf="@id/bbb" />
+        <!--android:textAllCaps="false" 大写字母-->
+
+        <Button
+            android:id="@+id/ddd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/permissionBgColorBlue"
+            android:text="在1.1上 对于wrap_content会超过约束限制，谷歌又新增了如下属性app:layout_constrainedWidth=”true|false”app:layout_constrainedHeight=”true|false”设置为true也可以限制内容不超过约束(这样感觉layout_constraintWidth_default这个属性已经没什么用了)"
+            android:textAllCaps="false"
+            android:textColor="@color/permissionColorWhite"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ccc"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.7" />
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>
+
